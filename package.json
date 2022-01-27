@@ -1,0 +1,24 @@
+{
+  "name": "nothingfuckingtrash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "node": "hardhat node &",
+    "local": "npm run node && hardhat run scripts/index.js --network localhost",
+    "deploy": "hardhat run scripts/index.js"
+  },
+  "author": "kutugu",
+  "license": "Mozilla",
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.4.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@openzeppelin/hardhat-upgrades": "^1.13.0",
+    "dotenv": "^14.3.2",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.3"
+  }
+}
